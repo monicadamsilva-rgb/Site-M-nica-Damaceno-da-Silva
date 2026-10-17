@@ -1,0 +1,23 @@
+.app-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.deck-view-active {
+  padding-bottom: var(--space-2xl);
+}
+
+.deck-banner {
+  background: rgba(99, 102, 241, 0.1);
+  border-bottom: 1px solid var(--border-glow);
+  padding: 8px 0;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--accent-cyan);
+  font-weight: 500;
+}
+
+.deck-banner span {
+  font-weight: 700;
+}
